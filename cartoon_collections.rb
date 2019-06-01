@@ -2,7 +2,7 @@ require "pry"
 
 def roll_call_dwarves(d_array)
   d_array.each_with_index do |item, index|
-    print item
+    puts item
   end
 end
 
