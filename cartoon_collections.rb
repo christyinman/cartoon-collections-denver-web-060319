@@ -1,3 +1,5 @@
+require "pry"
+
 def roll_call_dwarves(d_array)
   d_array.each_with_index { |item, index| }
 end
@@ -17,6 +19,7 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.find do |x|
+    binding.pry
     x.include?(cheese_types)
   end  
 end
