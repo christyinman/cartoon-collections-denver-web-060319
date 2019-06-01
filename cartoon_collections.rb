@@ -1,7 +1,9 @@
 require "pry"
 
 def roll_call_dwarves(d_array)
-  d_array.each_with_index { |item, index| }
+  d_array.each_with_index do |item, index|
+    print item
+  end
 end
 
 def summon_captain_planet(call_array)
